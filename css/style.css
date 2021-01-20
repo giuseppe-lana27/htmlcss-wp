@@ -7,6 +7,7 @@
 /* /Reset */
 body{
   color: #929292;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* dimensionamento container */
@@ -157,6 +158,7 @@ ul li a{
 /* /main */
 /* footer */
 footer{
+  margin-top: 5%;
   height: 50px;
   text-align: center;
   color: black;

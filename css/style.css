@@ -5,6 +5,9 @@
   box-sizing: border-box;
 }
 /* /Reset */
+body{
+  color: #929292;
+}
 
 /* dimensionamento container */
 .container{
@@ -17,7 +20,6 @@
 /* header */
 header{
   height: 100px;
-  /* background-color: pink; */
   margin-bottom: 20px;
   padding: 5px;
 }
@@ -42,15 +44,44 @@ ul li{
 
 ul li a{
   text-decoration: none;
-  color: black;
+  color: #858585;
+  text-transform: uppercase;
 
 }
 /* /header */
 /* banner */
 .banner{
   height: 500px;
-  background-color: yellow;
+  background-image: url('../img/banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
   margin-bottom: 20px;
+  position: relative;
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 0;
+  border-radius: 10px;
+}
+.message{
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+  color: white;
+}
+.message h3{
+  font-size: 30px;
+}
+.message p{
+  font-size: 18px;
 }
 /* /banner */
 /* main */

@@ -11,14 +11,39 @@
   margin: auto;
   width: 80%;
   height:  100%;
-  
+
 }
 /* /dimensionamento container */
 /* header */
 header{
   height: 100px;
-  background-color: pink;
+  /* background-color: pink; */
   margin-bottom: 20px;
+  padding: 5px;
+}
+
+.logo{
+  width: 130px;
+  height: 50px;
+  margin-bottom: 25px;
+}
+.logo img{
+  max-width: 100%;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+}
+
+ul li{
+  margin-right: 20px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+
 }
 /* /header */
 /* banner */

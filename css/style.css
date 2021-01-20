@@ -1,0 +1,68 @@
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* /Reset */
+
+/* dimensionamento container */
+.container{
+  margin: auto;
+  width: 80%;
+  height:  100%;
+  
+}
+/* /dimensionamento container */
+/* header */
+header{
+  height: 100px;
+  background-color: pink;
+  margin-bottom: 20px;
+}
+/* /header */
+/* banner */
+.banner{
+  height: 500px;
+  background-color: yellow;
+  margin-bottom: 20px;
+}
+/* /banner */
+/* main */
+section{
+  background-color: blue;
+}
+.section-row{
+  height: 80px;
+  background-color: lightblue;
+  margin-bottom: 1%;
+}
+.columns{
+  height: 600px;
+  margin-bottom: 1%;
+}
+.columns::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.left-column, .right-column{
+  width: 25%;
+  height: 98%;
+  background-color: lightblue;
+  float: left;
+}
+.mid-column{
+  width: 48%;
+  height: 98%;
+  background-color: lightblue;
+  float: left;
+  margin: 0 1%;
+}
+/* /main */
+/* footer */
+footer{
+  height: 50px;
+  background-color: purple;
+}
+/* /footer */

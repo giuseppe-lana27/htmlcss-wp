@@ -85,14 +85,17 @@ ul li a{
 }
 /* /banner */
 /* main */
-section{
-  background-color: blue;
-}
 .section-row{
-  height: 80px;
-  background-color: lightblue;
-  margin-bottom: 1%;
+  margin: 2% 0;
 }
+.section-row h2{
+  color: black;
+  font-size: 40px;
+}
+.section-row p{
+  font-size: 20px;
+}
+
 .columns{
   height: 600px;
   margin-bottom: 1%;
